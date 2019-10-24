@@ -29,6 +29,8 @@ master_doc = 'index'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+html_theme = 'sphinx_rtd_theme'
+
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.imgmath',
@@ -50,7 +52,7 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
